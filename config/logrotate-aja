@@ -1,0 +1,22 @@
+/var/log/aja-monitor/*.log {
+    daily
+    maxsize 5M
+    rotate 5
+    compress
+    delaycompress
+    missingok
+    notifempty
+    su aja-monitor adm
+    create 0640 aja-monitor adm
+}
+
+/var/log/aja/*.log {
+    daily
+    maxsize 5M
+    rotate 5
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 0640 root adm
+}

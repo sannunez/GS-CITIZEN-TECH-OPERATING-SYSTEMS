@@ -1,0 +1,56 @@
+2026-11-17T03:24:22+00:00 [INICIO] Instalação do monitoramento AJA.
+/usr/lib/systemd/system/xfs_scrub_all.service:26: Support for option CPUAccounting= has been removed and it is ignored
+/usr/lib/systemd/system/system-xfs_scrub.slice:15: Support for option CPUAccounting= has been removed and it is ignored
+warning: logrotate in debug mode does nothing except printing debug messages!  Consider using verbose mode (-v) instead if this is not what you want.
+
+reading config file /etc/logrotate.d/aja
+Reading state from file: /var/lib/logrotate/status
+state file /var/lib/logrotate/status does not exist
+Allocating hash table for state file, size 64 entries
+
+Handling 2 logs
+
+rotating pattern: /var/log/aja-monitor/*.log after 1 days empty log files are not rotated, log files >= 5242880 are rotated earlier, (5 rotations), old logs are removed
+switching euid from 0 to 995 and egid from 0 to 4 (pid 1655)
+considering log /var/log/aja-monitor/alertas.log
+Creating new state
+  Now: 2026-11-17 03:24
+  Last rotated at 2026-11-17 03:00
+  log does not need rotating (log has already been rotated)
+considering log /var/log/aja-monitor/recursos.log
+Creating new state
+  Now: 2026-11-17 03:24
+  Last rotated at 2026-11-17 03:00
+  log does not need rotating (log has already been rotated)
+switching euid from 995 to 0 and egid from 4 to 0 (pid 1655)
+
+rotating pattern: /var/log/aja/*.log after 1 days empty log files are not rotated, log files >= 5242880 are rotated earlier, (5 rotations), old logs are removed
+considering log /var/log/aja/instalacao-dependencias.log
+Creating new state
+  Now: 2026-11-17 03:24
+  Last rotated at 2026-11-17 03:00
+  log does not need rotating (log has already been rotated)
+considering log /var/log/aja/instalacao-monitoramento.log
+Creating new state
+  Now: 2026-11-17 03:24
+  Last rotated at 2026-11-17 03:00
+  log does not need rotating (log has already been rotated)
+considering log /var/log/aja/provisionamento-infra.log
+Creating new state
+  Now: 2026-11-17 03:24
+  Last rotated at 2026-11-17 03:00
+  log does not need rotating (log has already been rotated)
+considering log /var/log/aja/publicacao-aplicacao.log
+Creating new state
+  Now: 2026-11-17 03:24
+  Last rotated at 2026-11-17 03:00
+  log does not need rotating (log has already been rotated)
+2026-11-17T03:24:22+00:00 [INFO] Testando uma coleta real de recursos com o usuário de monitoramento.
+2026-11-17T03:24:22+00:00 [INICIO] modo=normal pid=1659 cpu_limite=80 memoria_limite=80 disco_limite=85 amostra=2s intervalo=15s
+2026-11-17T03:24:25+00:00 [MEDICAO] modo=normal pid=1659 cpu=1.1% memoria=30.6% disco=29% caminho=/ api=ok
+2026-11-17T03:24:25+00:00 [FIM] modo=normal pid=1659 Coleta única concluída.
+Created symlink '/etc/systemd/system/multi-user.target.wants/aja-monitor.service' → '/etc/systemd/system/aja-monitor.service'.
+enabled
+MainPID=1795
+NRestarts=0
+2026-11-17T03:24:30+00:00 [FIM] Monitoramento instalado e ativo. Confira: sudo tail -n 10 /var/log/aja-monitor/recursos.log

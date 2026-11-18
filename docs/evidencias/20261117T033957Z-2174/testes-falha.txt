@@ -1,0 +1,34 @@
+2026-11-17T03:27:58+00:00 [INICIO] Teste de alertas com medições reais e limiares temporários iguais a zero.
+2026-11-17T03:27:58+00:00 [INFO] Não haverá consumo artificial de RAM/disco. A configuração normal do serviço não será alterada.
+2026-11-17T03:27:58+00:00 [INICIO] modo=teste-limiares pid=2148 cpu_limite=0 memoria_limite=0 disco_limite=0 amostra=2s intervalo=15s
+2026-11-17T03:28:00+00:00 [MEDICAO] modo=teste-limiares pid=2148 cpu=0.0% memoria=30.7% disco=29% caminho=/ api=ok
+2026-11-17T03:28:00+00:00 [ALERTA] modo=teste-limiares pid=2148 recurso=CPU consumo=0.0% limite=0%
+2026-11-17T03:28:00+00:00 [ALERTA] modo=teste-limiares pid=2148 recurso=MEMORIA consumo=30.7% limite=0%
+2026-11-17T03:28:00+00:00 [ALERTA] modo=teste-limiares pid=2148 recurso=DISCO consumo=29% limite=0%
+2026-11-17T03:28:00+00:00 [FIM] modo=teste-limiares pid=2148 Coleta única concluída.
+2026-11-17T03:28:00+00:00 [OK] Alerta de CPU registrado em coleta real com limiar de demonstração.
+2026-11-17T03:28:00+00:00 [OK] Alerta de MEMORIA registrado em coleta real com limiar de demonstração.
+2026-11-17T03:28:00+00:00 [OK] Alerta de DISCO registrado em coleta real com limiar de demonstração.
+2026-11-17T03:28:00+00:00 [TESTE] Falha real em aja-monitor: encerrando processo principal PID=1795 com SIGKILL.
+2026-11-17T03:28:04+00:00 [OK] aja-monitor recuperado automaticamente: PID 1795 -> 2218; NRestarts 0 -> 1.
+2026-11-17T03:28:06+00:00 [OK] O novo processo do monitor voltou a registrar medições.
+2026-11-17T03:28:06+00:00 [FIM] Testes concluídos. Evidência registrada em /var/log/aja/testes-falha.log.
+2026-11-17T03:29:40+00:00 [INICIO] Teste de alertas com medições reais e limiares temporários iguais a zero.
+2026-11-17T03:29:40+00:00 [INFO] Não haverá consumo artificial de RAM/disco. A configuração normal do serviço não será alterada.
+2026-11-17T03:29:41+00:00 [INICIO] modo=teste-limiares pid=2389 cpu_limite=0 memoria_limite=0 disco_limite=0 amostra=2s intervalo=15s
+2026-11-17T03:29:43+00:00 [MEDICAO] modo=teste-limiares pid=2389 cpu=0.6% memoria=30.9% disco=29% caminho=/ api=ok
+2026-11-17T03:29:43+00:00 [ALERTA] modo=teste-limiares pid=2389 recurso=CPU consumo=0.6% limite=0%
+2026-11-17T03:29:43+00:00 [ALERTA] modo=teste-limiares pid=2389 recurso=MEMORIA consumo=30.9% limite=0%
+2026-11-17T03:29:43+00:00 [ALERTA] modo=teste-limiares pid=2389 recurso=DISCO consumo=29% limite=0%
+2026-11-17T03:29:43+00:00 [FIM] modo=teste-limiares pid=2389 Coleta única concluída.
+2026-11-17T03:29:43+00:00 [OK] Alerta de CPU registrado em coleta real com limiar de demonstração.
+2026-11-17T03:29:43+00:00 [OK] Alerta de MEMORIA registrado em coleta real com limiar de demonstração.
+2026-11-17T03:29:43+00:00 [OK] Alerta de DISCO registrado em coleta real com limiar de demonstração.
+2026-11-17T03:29:43+00:00 [TESTE] Falha real em aja-monitor: encerrando processo principal PID=2218 com SIGKILL.
+2026-11-17T03:29:47+00:00 [OK] aja-monitor recuperado automaticamente: PID 2218 -> 2457; NRestarts 1 -> 2.
+2026-11-17T03:29:49+00:00 [OK] O novo processo do monitor voltou a registrar medições.
+2026-11-17T03:29:49+00:00 [AVISO] A API ficará indisponível brevemente durante o teste solicitado.
+2026-11-17T03:29:49+00:00 [TESTE] Falha real em aja-api: encerrando processo principal PID=1143 com SIGKILL.
+2026-11-17T03:29:54+00:00 [OK] aja-api recuperado automaticamente: PID 1143 -> 2537; NRestarts 0 -> 1.
+2026-11-17T03:29:56+00:00 [OK] API recuperada; /health voltou a confirmar conexão com MySQL.
+2026-11-17T03:29:57+00:00 [FIM] Testes concluídos. Evidência registrada em /var/log/aja/testes-falha.log.

@@ -1,0 +1,30 @@
+[Unit]
+Description=API da plataforma AJA CitizenTech
+After=network-online.target mysql.service
+Wants=network-online.target mysql.service
+StartLimitIntervalSec=60
+StartLimitBurst=6
+
+[Service]
+Type=simple
+User=aja
+Group=aja
+WorkingDirectory=/opt/aja/api
+ExecStart=/usr/bin/dotnet /opt/aja/api/Aja.HelperApp.Api.dll
+EnvironmentFile=/etc/aja/api.env
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+KillSignal=SIGINT
+SyslogIdentifier=aja-api
+StandardOutput=journal
+StandardError=journal
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/aja
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

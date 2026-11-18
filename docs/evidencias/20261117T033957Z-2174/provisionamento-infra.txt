@@ -1,0 +1,24 @@
+2026-11-17T02:10:46+00:00 [INICIO] Provisionamento da infraestrutura AJA.
+2026-11-17T02:10:46+00:00 [INFO] Backup criado em /var/backups/aja-infra-v2Ug2Fv5.
+2026-11-17T02:10:47+00:00 [INFO] Testando IP 10.0.2.15/24, gateway 10.0.2.2 e DNS 10.0.2.3.
+2026-11-17T02:10:47+00:00 [AVISO] Quando o Netplan perguntar, pressione ENTER para manter a rede se o terminal continuar respondendo.
+2026-11-17T02:10:47+00:00 [AVISO] Se perder acesso, aguarde a reversão e use o console do VirtualBox para conferir a rede.
+Do you want to keep these settings?
+
+
+Press ENTER before the timeout to accept the new configuration
+
+
+Changes will revert in 60 secondsChanges will revert in 59 secondsChanges will revert in 58 secondsChanges will revert in 57 secondsChanges will revert in 56 secondsChanges will revert in 55 secondsChanges will revert in 54 secondsChanges will revert in 53 secondsChanges will revert in 52 secondsChanges will revert in 51 secondsChanges will revert in 50 secondsChanges will revert in 49 secondsChanges will revert in 48 secondsChanges will revert in 47 secondsChanges will revert in 46 secondsChanges will revert in 45 secondsChanges will revert in 44 secondsChanges will revert in 43 secondsChanges will revert in 42 seconds
+Configuration accepted.
+2026-11-17T02:11:06+00:00 [OK] IP fixo e resolução de nomes verificados.
+2026-11-17T02:11:06+00:00 [OK] Hostname configurado: aja-server.
+2026-11-17T02:11:06+00:00 [OK] Usuário de serviço aja criado, sem login interativo.
+2026-11-17T02:11:06+00:00 [OK] Diretórios e permissões preparados para a aplicação e suas chaves.
+2026-11-17T02:11:06+00:00 [INFO] Resumo da infraestrutura:
+aja-server
+enp0s3           UP             10.0.2.15/24 fd17:625c:f037:2:a00:27ff:fe42:ab92/64 fe80::a00:27ff:fe42:ab92/64 
+default via 10.0.2.2 dev enp0s3 proto static metric 100 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 
+Link 2 (enp0s3): 10.0.2.3 fd17:625c:f037:2::3
+2026-11-17T02:11:06+00:00 [FIM] Infraestrutura provisionada. Log: /var/log/aja/provisionamento-infra.log

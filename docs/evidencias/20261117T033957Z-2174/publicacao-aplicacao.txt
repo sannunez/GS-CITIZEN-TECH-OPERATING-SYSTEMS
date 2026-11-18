@@ -1,0 +1,120 @@
+2026-11-17T03:09:26+00:00 [INFO] Instalando Node.js e npm do Ubuntu para compilar o frontend.
+Hit:1 http://archive.ubuntu.com/ubuntu resolute InRelease
+Get:2 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+Get:3 http://archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+Get:4 http://archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+Get:5 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Components [46.7 kB]
+Get:6 http://archive.ubuntu.com/ubuntu resolute-updates/main amd64 Components [110 kB]
+Get:7 http://archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Components [201 kB]
+Get:8 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Components [62.8 kB]
+Get:9 http://archive.ubuntu.com/ubuntu resolute-backports/universe amd64 Components [1,056 B]
+Fetched 833 kB in 2s (354 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nodejs is already the newest version (22.22.1+dfsg+~cs22.19.15-1ubuntu1).
+npm is already the newest version (9.2.0~ds3-1).
+Solving dependencies...
+The following packages were automatically installed and are no longer required:
+  linux-headers-7.0.0-30 linux-headers-7.0.0-30-generic
+  linux-image-unsigned-7.0.0-30-generic
+  linux-main-modules-zfs-7.0.0-30-generic linux-modules-7.0.0-30-generic
+  linux-tools-7.0.0-30 linux-tools-7.0.0-30-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 49 not upgraded.
+v22.22.1
+9.2.0
+2026-11-17T03:09:32+00:00 [INFO] Compilando frontend como usuário comum; esta etapa pode demorar.
+npm WARN deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+added 776 packages in 27s
+
+> aja-helperapp@1.0.0 typecheck
+> tsc --noEmit
+
+
+> aja-helperapp@1.0.0 lint
+> expo lint
+
+Using src/app as the root directory for Expo Router.
+Starting Metro Bundler
+
+Web Bundled 1728ms index.ts (925 modules)
+
+› Assets (38):
+assets/aja-logo.fc7154204e48e11e0b39f59a065e6956.jpeg (7.5KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/AntDesign.3f78af31cca60105799838a1a7a59fbd.ttf (130KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Entypo.31b5ffea3daddc69dd01a1f3d6cf63c5.ttf (66KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/EvilIcons.140c53a7643ea949007aa9a282153849.ttf (13KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.ca4b48e04dc1ce10bfbddb262c8b835f.ttf (56KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.b06871f281fee6b241d60582ae9369b9.ttf (166KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Brands.3b89dd103490708d19a95adcae52210e.ttf (134KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Regular.1f77739ca9ff2188b539c36f30ffa2be.ttf (34KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Solid.605ed7926cf39a2ad5ec2d1f9d391d3d.ttf (203KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Brands.56c8d80832e37783f12c05db7c8849e2.ttf (209KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Regular.370dd5af19f8364907b6e2c41f45dbbf.ttf (68KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Solid.adec7d6f310bc577f05e8fe06a5daccf.ttf (424KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Fontisto.b49ae8ab2dbccb02c4d11caaacf09eab.ttf (314KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Foundation.e20945d7c929279ef7a6f1db184a4470.ttf (57KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.b4eb097d35f44ed943676fd56f6bdc51.ttf (390KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.6e435534bd35da5fef04168860a9b8fa.ttf (1.3MB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialIcons.4e85bc9ebe07e0340c9c4fc2f6c38908.ttf (357KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Octicons.871378c6eab492a3e689a9385dc45a12.ttf (69KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/SimpleLineIcons.d2285965fe34b05465047401b8595dd0.ttf (54KB)
+node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Zocial.1681f34aaca71b8dfb70756bca331eb2.ttf (26KB)
+node_modules/expo-router/assets/arrow_down.017bc6ba3fc25503e5eb5e53826d48a8.png (9.5KB)
+node_modules/expo-router/assets/error.d1ea1496f9057eb392d5bbf3732a61b7.png (469B)
+node_modules/expo-router/assets/file.19eeb73b9593a38f8e9f418337fc7d10.png (138B)
+node_modules/expo-router/assets/forward.d8b800c443b8972542883e0b9de2bdc6.png (188B)
+node_modules/expo-router/assets/pkg.ab19f4cbc543357183a20571f68380a3.png (364B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon-mask.0a328cd9c1afd0afe8e3b1ec5165b1b4.png (653B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon.35ba0eaec5a4f5ed12ca16fabeae451d.png (207B)
+node_modules/expo-router/assets/react-navigation/elements/clear-icon.c94f6478e7ae0cdd9f15de1fcb9e5e55.png (4 variations | 425B)
+node_modules/expo-router/assets/react-navigation/elements/close-icon.808e1b1b9b53114ec2838071a7e6daa7.png (4 variations | 235B)
+node_modules/expo-router/assets/react-navigation/elements/search-icon.286d67d3f74808a60a78d3ebf1a5fb57.png (928B)
+node_modules/expo-router/assets/sitemap.412dd9275b6b48ad28f5e3d81bb1f626.png (465B)
+node_modules/expo-router/assets/unmatched.20e71bdf79e3a97bf55fd9e164041578.png (4.8KB)
+
+› web bundles (14):
+_expo/static/js/web/__common-3bea3e26de17d55911d33ad1f41414ec.js (542KB)
+_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js (3.8KB)
+_expo/static/js/web/_layout-75ebda125562c3ff7cafaf2dd6f9244b.js (4.6KB)
+_expo/static/js/web/_layout-f5ee84bbcc4f29af2d8ec915c14e1a25.js (2.6KB)
+_expo/static/js/web/[id]-e5d9678af96ce135bc070b56c5e5fbb1.js (4.8KB)
+_expo/static/js/web/cadastro-c6f33f038c9a588c1db33e48933fb1e9.js (304B)
+_expo/static/js/web/denuncia-form-594b4de12219026284ee56edec4483ea.js (8.7KB)
+_expo/static/js/web/denuncias-fc75147f6ed4f1546f727d20857b5cd7.js (7.5KB)
+_expo/static/js/web/feed-d64bf4af913479c22103b17b79d5ed5d.js (7.3KB)
+_expo/static/js/web/index-5337a0a84ebbed8deede731653a569fa.js (1.1MB)
+_expo/static/js/web/index-e3a5b189b319947a68ecd956500865d8.js (4.3KB)
+_expo/static/js/web/login-7a6e52ab48bdf7f829c8bcd842c5c0e6.js (301B)
+_expo/static/js/web/nova-postagem-7694bf4bbc6d6bc607ab3ca2650f8045.js (3.5KB)
+_expo/static/js/web/perfil-78d44afa2f7b718b2ffbf6fc691775c9.js (11KB)
+
+› Files (3):
+favicon.ico (15KB)
+index.html (1.4KB)
+metadata.json (49B)
+
+Exported: dist
+2026-11-17T03:10:15+00:00 [INFO] Compilando API como usuário comum.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Aja.HelperApp.Api -> /home/guilherme/aja-os/app/backend/src/Aja.HelperApp.Api/bin/Release/net10.0/Aja.HelperApp.Api.dll
+  Aja.HelperApp.Api -> /home/guilherme/aja-os/app/backend/.publish/
+2026-11-17T03:10:17+00:00 [INFO] Preparando credenciais locais; a senha não será exibida nem incluída no repositório.
+2026-11-17T03:10:17+00:00 [INFO] Criando banco aja_helperapp e usuário exclusivo com permissões apenas nesse banco.
+2026-11-17T03:10:18+00:00 [OK] Banco preparado; versão real do MySQL: 8.4.13.
+2026-11-17T03:10:18+00:00 [INFO] Configurações anteriores preservadas em /var/backups/aja-publicacao-f9xPQ0ky.
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+2026-11-17T03:10:18+00:00 [INFO] Iniciando API; as migrações criam as tabelas e os dados demonstrativos.
+Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+{"status":"ok","database":"MySQL"}
+2026-11-17T03:10:22+00:00 [OK] Frontend e API publicados; rota /health confirma conexão com o banco.
+2026-11-17T03:10:22+00:00 [INFO] API: sudo systemctl status aja-api --no-pager
+2026-11-17T03:10:22+00:00 [INFO] Logs da API: sudo journalctl -u aja-api -n 60 --no-pager
+2026-11-17T03:10:22+00:00 [INFO] No VirtualBox, encaminhe 127.0.0.1:8080 do Windows para a porta 80 da VM.
+2026-11-17T03:10:22+00:00 [FIM] Publicação concluída. Acesse http://127.0.0.1:8080 após configurar o encaminhamento. Log: /var/log/aja/publicacao-aplicacao.log

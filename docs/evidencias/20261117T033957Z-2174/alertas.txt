@@ -1,0 +1,10 @@
+2026-11-17T03:28:00+00:00 [ALERTA] modo=teste-limiares pid=2148 recurso=CPU consumo=0.0% limite=0%
+2026-11-17T03:28:00+00:00 [ALERTA] modo=teste-limiares pid=2148 recurso=MEMORIA consumo=30.7% limite=0%
+2026-11-17T03:28:00+00:00 [ALERTA] modo=teste-limiares pid=2148 recurso=DISCO consumo=29% limite=0%
+2026-11-17T03:29:43+00:00 [ALERTA] modo=teste-limiares pid=2389 recurso=CPU consumo=0.6% limite=0%
+2026-11-17T03:29:43+00:00 [ALERTA] modo=teste-limiares pid=2389 recurso=MEMORIA consumo=30.9% limite=0%
+2026-11-17T03:29:43+00:00 [ALERTA] modo=teste-limiares pid=2389 recurso=DISCO consumo=29% limite=0%
+2026-11-17T03:31:51+00:00 [ALERTA] modo=normal pid=829 recurso=CPU consumo=100.0% limite=80%
+2026-11-17T03:31:51+00:00 [ALERTA] modo=normal pid=829 recurso=API estado=indisponivel endpoint=/health
+2026-11-17T03:32:09+00:00 [RECUPERACAO] modo=normal pid=829 recurso=CPU consumo=37.8% limite=80%
+2026-11-17T03:32:09+00:00 [RECUPERACAO] modo=normal pid=829 recurso=API estado=ok endpoint=/health

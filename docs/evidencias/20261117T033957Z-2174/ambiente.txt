@@ -1,0 +1,38 @@
+2026-11-17T03:39:57+00:00
+ Static hostname: aja-server
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: dc060cc4fa6d460dbe9fca293cf3dabb
+         Boot ID: 20fdcffef8294c3fa0792ff6ac622dc0
+    Product UUID: 50032826-9776-9f44-a4b3-1d1a66aaf77b
+  Virtualization: oracle
+Operating System: Ubuntu 26.04.1 LTS
+          Kernel: Linux 7.0.0-43-generic
+    Architecture: x86-64
+ Hardware Vendor: innotek GmbH
+  Hardware Model: VirtualBox
+ Hardware Serial: VirtualBox-26280350-7697-449f-a4b3-1d1a66aaf77b
+Hardware Version: 1.2
+Firmware Version: VirtualBox
+   Firmware Date: Fri 2006-12-01
+    Firmware Age: 19y 11month 2w 2d
+ 03:39:57 up 8 min,  2 users,  load average: 0.04, 0.19, 0.17
+
+REDE
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             10.0.2.15/24 fd17:625c:f037:2:a00:27ff:fe42:ab92/64 fe80::a00:27ff:fe42:ab92/64 
+default via 10.0.2.2 dev enp0s3 proto static metric 100 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 
+
+DNS
+Link 2 (enp0s3): 10.0.2.3 fd17:625c:f037:2::3
+
+DISCO
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        40G   11G   27G  29% /
+
+VERSOES
+10.0.115 [/usr/lib/dotnet/sdk]
+mysql  Ver 8.4.13-0ubuntu0.26.04.2 for Linux on x86_64 ((Ubuntu))
+nginx version: nginx/1.28.3 (Ubuntu)
+v22.22.1

@@ -1,0 +1,11 @@
+Nov 17 03:31:55 aja-server systemd[1]: Started aja-api.service - API da plataforma AJA CitizenTech.
+Nov 17 03:31:58 aja-server aja-api[1169]: info: Microsoft.EntityFrameworkCore.Migrations[20405]
+Nov 17 03:31:58 aja-server aja-api[1169]:       No migrations were applied. The database is already up to date.
+Nov 17 03:31:58 aja-server aja-api[1169]: info: Microsoft.Hosting.Lifetime[14]
+Nov 17 03:31:58 aja-server aja-api[1169]:       Now listening on: http://127.0.0.1:5080
+Nov 17 03:31:58 aja-server aja-api[1169]: info: Microsoft.Hosting.Lifetime[0]
+Nov 17 03:31:58 aja-server aja-api[1169]:       Application started. Press Ctrl+C to shut down.
+Nov 17 03:31:58 aja-server aja-api[1169]: info: Microsoft.Hosting.Lifetime[0]
+Nov 17 03:31:58 aja-server aja-api[1169]:       Hosting environment: Production
+Nov 17 03:31:58 aja-server aja-api[1169]: info: Microsoft.Hosting.Lifetime[0]
+Nov 17 03:31:58 aja-server aja-api[1169]:       Content root path: /opt/aja/releases/20261117T031018Z-10362

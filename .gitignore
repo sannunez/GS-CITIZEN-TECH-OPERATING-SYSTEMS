@@ -1,0 +1,13 @@
+.env
+*.log
+node_modules/
+bin/
+obj/
+dist/
+*.iso
+*.vdi
+*.vmdk
+*.vbox*
+.publish/
+.nuget/
+output/

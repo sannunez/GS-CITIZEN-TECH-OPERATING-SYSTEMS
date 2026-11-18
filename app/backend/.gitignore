@@ -1,0 +1,16 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+.nuget/
+.keys/
+TestResults/
+*.user
+*.suo
+*.log
+.env
+.env.*
+appsettings.Local.json
+appsettings.*.Local.json
+*.secrets.json
+

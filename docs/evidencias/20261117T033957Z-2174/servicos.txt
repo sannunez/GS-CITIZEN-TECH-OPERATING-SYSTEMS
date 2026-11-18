@@ -1,0 +1,29 @@
+2026-11-17T03:39:58+00:00
+
+SERVICO: aja-monitor
+active
+enabled
+ActiveEnterTimestamp=Tue 2026-11-17 03:31:48 UTC
+MainPID=829
+NRestarts=0
+
+SERVICO: aja-api
+active
+enabled
+ActiveEnterTimestamp=Tue 2026-11-17 03:31:55 UTC
+MainPID=1169
+NRestarts=0
+
+SERVICO: mysql
+active
+enabled
+ActiveEnterTimestamp=Tue 2026-11-17 03:31:55 UTC
+MainPID=941
+NRestarts=0
+
+SERVICO: nginx
+active
+enabled
+ActiveEnterTimestamp=Tue 2026-11-17 03:31:49 UTC
+MainPID=887
+NRestarts=0
