@@ -47,7 +47,7 @@ O laboratório é local; a VM precisa estar ligada para o site abrir.
 O vídeo apresenta o provisionamento automático, a aplicação hospedada, o
 monitoramento, os logs e os testes de falha, com duração máxima de sete minutos.
 
-**Link do vídeo: a adicionar após a gravação.**
+[Assistir ao vídeo de demonstração da AJA](https://youtu.be/EfVVVXgOFds)
 
 ## Reproduzir a partir do GitHub
 
